@@ -17,13 +17,13 @@ function AuthUi(){
 
     function handleLogin(){
         dispatch(loginApi({username,password}))
-          toast.success("Login Success")
+        //   toast.success("Login Success")
         //   navigate("/products")
     }
 
     useEffect(()=>{
         if(user){
-            // toast.success("Login Success")
+            toast.success("Login Success")
             navigate("/products")   
         }
     },[user])
