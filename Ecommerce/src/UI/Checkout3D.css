@@ -1,0 +1,97 @@
+
+
+
+
+
+.checkout-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.empty-cart {
+  text-align: center;
+  color: #555;
+}
+
+.checkout-items {
+  margin-bottom: 20px;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.checkout-total {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: right;
+  margin: 15px 0;
+  color: #222;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.checkout-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #333;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus,
+.checkout-form select:focus {
+  border-color: #4CAF50;
+}
+
+.place-order-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #4CAF50, #45A049);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.place-order-btn:hover {
+  background: linear-gradient(90deg, #45A049, #3e8e41);
+  transform: translateY(-2px);
+}

@@ -3,6 +3,7 @@ import ProductsReducer from "./Slices/ProductsSlice"
 import CartReducer from "./Slices/CartSlice"
 import WishlistReducer from "./Slices/WishlistSlice"
 import AuthReducer from "./Slices/AuthSlice"
+import CheckoutReducer from "./Slices/AuthSlice"
 
 
 var Store =configureStore({
@@ -10,7 +11,8 @@ var Store =configureStore({
         products : ProductsReducer,
         cart : CartReducer,
         wishlist : WishlistReducer,
-       auth : AuthReducer
+       auth : AuthReducer,
+       checkout: CheckoutReducer
        
        
     }
