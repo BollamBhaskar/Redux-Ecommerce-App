@@ -55,6 +55,7 @@ Total: $${totalAmount.toFixed(2)}`);
             {cart.map((item) => (
               <div className="checkout-item" key={item.id}>
                 <h3>{item.title}</h3>
+                <img  style={{width:100,height:100}}src={item.images} alt=""></img>
                 <p>
                   ${item.price.toFixed(2)} × {item.quantity}
                 </p>
