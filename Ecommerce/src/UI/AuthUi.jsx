@@ -69,7 +69,7 @@ function AuthUi(){
                 <input 
                     value={username}
                     onChange={(e)=>setUsername(e.target.value)}
-                    type="text"
+                    type="text" placeholder="emilys"
                     required
                 />
                 <label>Username</label>
@@ -79,7 +79,7 @@ function AuthUi(){
                 <input 
                     value={password}
                     onChange={(e)=>setPassword(e.target.value)}
-                    type="password"
+                    type="password" placeholder="emilyspass"
                     required
                 />
                 <label>Password</label>
